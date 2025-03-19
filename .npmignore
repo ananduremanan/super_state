@@ -1,0 +1,12 @@
+src/
+node_modules/
+tests/
+*.config.js
+*.config.cjs
+*.config.mjs
+*.config.ts
+*.test.*
+*.spec.*
+*.log
+tsconfig.json
+.rollup.cache

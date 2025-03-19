@@ -1,0 +1,37 @@
+{
+  "name": "@grampro/superstate",
+  "version": "0.0.3",
+  "description": "A custom React hook for evaluating expressions",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "npx rollup -c",
+    "pack": "npx rollup -c && npm pack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "goOnline": "npm run build && npm publish"
+  },
+  "keywords": [],
+  "author": "GBS",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-babel": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "@rollup/plugin-terser": "latest",
+    "rollup-plugin-peer-deps-external": "latest",
+    "rollup-plugin-typescript2": "latest",
+    "typescript": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
