@@ -4,6 +4,12 @@ A Simple React State Management System
 
 ## Usage
 
+### Installation
+
+```bash
+npm i @grampro/superstate
+```
+
 ### Global State
 
 A Simple Global State Management Utility
